@@ -1,0 +1,426 @@
+{
+  "campsites": [
+    {
+      "id": 0,
+      "name": "React Lake Campground",
+      "image": "images/react-lake.jpg",
+      "elevation": 1233,
+      "featured": false,
+      "description": "Nestled in the foothills of the Chrome Mountains, this campground on the shores of the pristine React Lake is a favorite for fly fishers."
+    },
+    {
+      "id": 1,
+      "name": "Chrome River Campground",
+      "image": "images/chrome-river.jpg",
+      "elevation": 877,
+      "featured": false,
+      "description": "Spend a few sunny days and starry nights beneath a canopy of old-growth firs at this enchanting spot by the Chrome River."
+    },
+    {
+      "id": 2,
+      "name": "Breadcrumb Trail Campground",
+      "image": "images/breadcrumb-trail.jpg",
+      "elevation": 2901,
+      "featured": false,
+      "description": "Let NuCamp be your guide to this off-the-beaten-path, hike-in-only campground."
+    },
+    {
+      "id": 3,
+      "name": "Redux Woods Campground",
+      "image": "images/redux-woods.jpg",
+      "elevation": 42,
+      "featured": true,
+      "description": "You'll never want to leave this hidden gem, deep within the lush Redux Woods."
+    }
+  ],
+  "comments": [
+    {
+      "id": 0,
+      "campsiteId": 0,
+      "rating": 5,
+      "text": "What a magnificent view!",
+      "author": "Tinus Lorvaldes",
+      "date": "2018-10-25T16:30Z"
+    },
+    {
+      "id": 1,
+      "campsiteId": 0,
+      "rating": 4,
+      "text": "The campground was beautiful, but the bugs could bite sometimes.",
+      "author": "Brennen Ech",
+      "date": "2017-06-17T03:33Z"
+    },
+    {
+      "id": 2,
+      "campsiteId": 0,
+      "rating": 5,
+      "text": "I caught a world-record-breaking trout here on my last visit.",
+      "author": "McKenzie Sebastian",
+      "date": "2019-02-18T18:12Z"
+    },
+    {
+      "id": 3,
+      "campsiteId": 0,
+      "rating": 5,
+      "text": "A wonderful place to reconnect with nature.",
+      "author": "Jordan Runn",
+      "date": "2019-08-04T20:11Z"
+    },
+    {
+      "id": 4,
+      "campsiteId": 0,
+      "rating": 4,
+      "text": "The stars at night were a revelation!",
+      "author": "Ann Dabramov",
+      "date": "2018-07-23T19:44Z"
+    },
+    {
+      "id": 5,
+      "campsiteId": 1,
+      "rating": 4,
+      "text": "The campground was beautiful, but the bugs could bite sometimes.",
+      "author": "Brennen Ech",
+      "date": "2017-06-17T03:33Z"
+    },
+    {
+      "id": 6,
+      "campsiteId": 1,
+      "rating": 5,
+      "text": "I caught a world-record-breaking trout here on my last visit.",
+      "author": "McKenzie Sebastian",
+      "date": "2019-02-18T18:12Z"
+    },
+    {
+      "id": 7,
+      "campsiteId": 1,
+      "rating": 5,
+      "text": "A wonderful place to reconnect with nature.",
+      "author": "Jordan Runn",
+      "date": "2019-08-04T20:11Z"
+    },
+    {
+      "id": 8,
+      "campsiteId": 1,
+      "rating": 4,
+      "text": "The stars at night were a revelation!",
+      "author": "Ann Dabramov",
+      "date": "2018-07-23T19:44Z"
+    },
+    {
+      "id": 9,
+      "campsiteId": 1,
+      "rating": 5,
+      "text": "What a magnificent view!",
+      "author": "Tinus Lorvaldes",
+      "date": "2018-10-25T16:30Z"
+    },
+    {
+      "id": 10,
+      "campsiteId": 2,
+      "rating": 5,
+      "text": "I caught a world-record-breaking trout here on my last visit.",
+      "author": "McKenzie Sebastian",
+      "date": "2019-02-18T18:12Z"
+    },
+    {
+      "id": 11,
+      "campsiteId": 2,
+      "rating": 5,
+      "text": "A wonderful place to reconnect with nature.",
+      "author": "Jordan Runn",
+      "date": "2019-08-04T20:11Z"
+    },
+    {
+      "id": 12,
+      "campsiteId": 2,
+      "rating": 4,
+      "text": "The stars at night were a revelation!",
+      "author": "Ann Dabramov",
+      "date": "2018-07-23T19:44Z"
+    },
+    {
+      "id": 13,
+      "campsiteId": 2,
+      "rating": 5,
+      "text": "What a magnificent view!",
+      "author": "Tinus Lorvaldes",
+      "date": "2018-10-25T16:30Z"
+    },
+    {
+      "id": 14,
+      "campsiteId": 2,
+      "rating": 4,
+      "text": "The campground was beautiful, but the bugs could bite sometimes.",
+      "author": "Brennen Ech",
+      "date": "2017-06-17T03:33Z"
+    },
+    {
+      "id": 15,
+      "campsiteId": 3,
+      "rating": 5,
+      "text": "A wonderful place to reconnect with nature.",
+      "author": "Jordan Runn",
+      "date": "2019-08-04T20:11Z"
+    },
+    {
+      "id": 16,
+      "campsiteId": 3,
+      "rating": 4,
+      "text": "The stars at night were a revelation!",
+      "author": "Ann Dabramov",
+      "date": "2018-07-23T19:44Z"
+    },
+    {
+      "id": 17,
+      "campsiteId": 3,
+      "rating": 5,
+      "text": "What a magnificent view!",
+      "author": "Tinus Lorvaldes",
+      "date": "2018-10-25T16:30Z"
+    },
+    {
+      "id": 18,
+      "campsiteId": 3,
+      "rating": 4,
+      "text": "The campground was beautiful, but the bugs could bite sometimes.",
+      "author": "Brennen Ech",
+      "date": "2017-06-17T03:33Z"
+    },
+    {
+      "id": 19,
+      "campsiteId": 3,
+      "rating": 5,
+      "text": "I caught a world-record-breaking trout here on my last visit.",
+      "author": "McKenzie Sebastian",
+      "date": "2019-02-18T18:12Z"
+    },
+    {
+      "campsiteId": 0,
+      "rating": 5,
+      "author": "asas",
+      "text": "asasa",
+      "date": "2020-08-16T17:28:22.713Z",
+      "id": 20
+    },
+    {
+      "campsiteId": 0,
+      "rating": 5,
+      "author": "sasa",
+      "text": "sasas",
+      "date": "2020-08-16T17:29:21.744Z",
+      "id": 21
+    },
+    {
+      "campsiteId": 0,
+      "rating": 5,
+      "author": "sasa",
+      "text": "sasas",
+      "date": "2020-08-16T17:30:33.327Z",
+      "id": 22
+    },
+    {
+      "campsiteId": 0,
+      "rating": 5,
+      "author": "sasas",
+      "text": "sasas",
+      "date": "2020-08-16T17:32:16.204Z",
+      "id": 23
+    },
+    {
+      "campsiteId": 0,
+      "rating": 5,
+      "author": "israel",
+      "text": "ceb",
+      "date": "2020-08-16T17:32:54.069Z",
+      "id": 24
+    },
+    {
+      "campsiteId": 0,
+      "rating": 5,
+      "author": "sas",
+      "text": "sas",
+      "date": "2020-08-16T18:40:47.439Z",
+      "id": 25
+    },
+    {
+      "campsiteId": 0,
+      "rating": 3,
+      "author": "ceb",
+      "text": "isra",
+      "date": "2020-08-16T18:47:47.344Z",
+      "id": 26
+    },
+    {
+      "campsiteId": 0,
+      "rating": 5,
+      "author": "sas",
+      "text": "sasasas",
+      "date": "2020-08-16T18:48:46.499Z",
+      "id": 27
+    },
+    {
+      "campsiteId": 0,
+      "rating": 5,
+      "author": "israel ",
+      "text": "coollll",
+      "date": "2020-08-16T18:52:52.640Z",
+      "id": 28
+    },
+    {
+      "campsiteId": 0,
+      "rating": 5,
+      "author": "Izra",
+      "text": "Nice",
+      "date": "2020-08-16T18:55:58.360Z",
+      "id": 29
+    },
+    {
+      "campsiteId": 0,
+      "rating": 5,
+      "author": "ceb",
+      "text": "nice",
+      "date": "2020-08-16T19:01:10.451Z",
+      "id": 30
+    },
+    {
+      "campsiteId": 0,
+      "rating": 5,
+      "author": "ceb",
+      "text": "nice",
+      "date": "2020-08-17T16:56:09.845Z",
+      "id": 31
+    },
+    {
+      "campsiteId": 0,
+      "rating": 5,
+      "author": "",
+      "text": "",
+      "date": "2020-08-24T06:56:00.494Z",
+      "id": 32
+    },
+    {
+      "campsiteId": 0,
+      "rating": 5,
+      "author": "wwewew",
+      "text": "wewewe",
+      "date": "2020-08-24T06:56:20.803Z",
+      "id": 33
+    },
+    {
+      "campsiteId": 0,
+      "rating": 5,
+      "author": "sasasa",
+      "text": "sasasa",
+      "date": "2020-08-24T21:40:39.720Z",
+      "id": 34
+    },
+    {
+      "campsiteId": 0,
+      "rating": 5,
+      "author": "",
+      "text": "",
+      "date": "2020-08-24T21:41:25.487Z",
+      "id": 35
+    },
+    {
+      "campsiteId": 0,
+      "rating": 5,
+      "author": "sas",
+      "text": "sas",
+      "date": "2020-08-24T21:41:31.856Z",
+      "id": 36
+    },
+    {
+      "campsiteId": 0,
+      "rating": 5,
+      "author": "sasa",
+      "text": "sasas",
+      "date": "2020-08-24T21:44:23.988Z",
+      "id": 37
+    },
+    {
+      "campsiteId": 0,
+      "rating": 5,
+      "author": "",
+      "text": "",
+      "date": "2020-08-24T21:51:17.823Z",
+      "id": 38
+    },
+    {
+      "campsiteId": 0,
+      "rating": 5,
+      "author": "sas",
+      "text": "sas",
+      "date": "2020-08-24T21:51:24.277Z",
+      "id": 39
+    },
+    {
+      "campsiteId": 0,
+      "rating": 5,
+      "author": "asa",
+      "text": "sa",
+      "date": "2020-08-24T21:52:44.548Z",
+      "id": 40
+    },
+    {
+      "campsiteId": 0,
+      "rating": 5,
+      "author": "sasas",
+      "text": "sa",
+      "date": "2020-08-24T22:03:24.863Z",
+      "id": 41
+    }
+  ],
+  "partners": [
+    {
+      "id": 0,
+      "name": "Bootstrap Outfitters",
+      "image": "images/bootstrap-logo.png",
+      "featured": false,
+      "description": "Bootstrap Outfitters supplies you with the gear you need at prices you can't beat."
+    },
+    {
+      "id": 1,
+      "name": "Git Out Expeditions",
+      "image": "images/git-logo.png",
+      "featured": false,
+      "description": "Join Git Out Expeditions to explore new horizons with a group of other adventurers!"
+    },
+    {
+      "id": 2,
+      "name": "Mongo Fly Shop",
+      "image": "images/mongo-logo.png",
+      "featured": false,
+      "description": "Need a new fishing pole, a tacklebox, or flies of all kinds? Stop by Mongo Fly Shop."
+    },
+    {
+      "id": 3,
+      "name": "Node Outdoor Apparel",
+      "image": "images/node-logo.png",
+      "featured": true,
+      "description": "From polar fleeces to swimsuits, hiking boots to waders, a visit to Node will be sure to get you covered."
+    }
+  ],
+  "promotions": [
+    {
+      "id": 0,
+      "name": "Mountain Adventure",
+      "image": "images/breadcrumb-trail.jpg",
+      "featured": true,
+      "description": "Book a 5-day mountain trek with a seasoned outdoor guide! Fly fishing equipment and lessons provided."
+    }
+  ],
+  "feedback": [
+    {
+      "id": 0,
+      "firstname": "Test",
+      "lastname": "Test",
+      "telnum": "12345",
+      "email": "test@test.com",
+      "agree": true,
+      "contactType": "Email",
+      "message": "test",
+      "date": "2019-10-25T13:30Z"
+    }
+  ]
+}

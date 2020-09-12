@@ -1,0 +1,49 @@
+/** @format */
+
+body {
+	font-family: Verdana, Arial, sans-serif;
+}
+
+legend {
+	background: purple;
+	border-radius: 10px;
+	color: white;
+	padding: 12px;
+}
+fieldset {
+	background: lavender;
+	border: 10px solid darkblue;
+	border-radius: 20px;
+	margin-bottom: 10px;
+	width: 720px;
+}
+div {
+  margin: 10px;
+/* mouse over link */ 
+a:hover 
+  color: blue; 
+}
+label {
+	display: inline-block;
+	text-align: right;
+	vertical-align: top;
+	width: 200px;
+}
+
+input[type="radio"] + label, {
+}
+
+}
+input [type="range-caption"] {
+	background: darkcyan;
+	color: white;
+	padding: 6px;
+	text-align: center;
+}
+.dark {
+	background: darkcyan;
+	border-radius: 10px;
+	color: white;
+	font-size: 20px;
+	padding: 12px;
+}

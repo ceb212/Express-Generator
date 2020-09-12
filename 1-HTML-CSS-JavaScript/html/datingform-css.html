@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script src="https://url.nucamp.co/datingjs"></script>
+    <meta charset="utf-8" />
+    <title>Survey Form></title>
+    <link href="datingform-layout.css" rel="stylesheet" type="text/css" >   
+</head>
+<body
+
+    <h1> Inter Your Details for Our Dating Website </h1>
+
+    <form class="survey-form" action="https://learn.nucamp.co/show_everything.php" method="post" encytype="multipart/form-data" >
+<fieldset>
+            <legend>Your Face</legend>
+            <div>
+            <label for="avatar">Upload Your Image:</label>
+                <form action="https://learn.nucamp.co/show_everything.php">
+                <input type="file", id="avatar", name="avatar" /> <br />
+                </form>
+            </div>
+            <div>
+<label for="Image Preview">Image Preview:</label>
+           </div>     
+ </fieldset>
+ <fieldset>
+            <legend>Your Details</legend>
+            <div>
+                <label for="Name">Name:</label>
+                <input type="text" id="name" name="Name" placeholder="Your Full Name" required />
+            </div>
+            <div>
+            <label for="Gender">Gender:</label>
+                <input type="radio" id="Woman" name="Gender" value="woman" required />
+                <label for="Woman">Woman</label>
+                <input type="radio" id="Man" name="Gender" value="man" required /> 
+                <label for="Man">Man</label> 
+            </div>
+            <div>
+                <label for="Age">Age:</label> 
+                <input type="number" id="age" name="age" />
+            </div>
+            <div>
+                <label for="dob">Date of Birth:</label> 
+                <input type="date" id="dob" name="dob" placeholder="mm/dd/yyyy"/>
+            </div>
+            <div>
+                <label for="color">Favorite Color:</label> 
+                <input type="color" id="color" name="color" />
+            </div>
+            <div>
+            <label for="country">Country:</label>
+                <input list="browsers" id="country" name="country" placeholder="Choose a country" />
+                <datalist id="browsers">
+                <option value="brazil" text="Brazil" >
+                <option value="france" text="France" >
+                <option value="japan" text="Japan" >
+                <option value="libya" text="Libya" >
+                <option value="usa" text="USA" >
+                </datalist>
+            </div>
+            <div>
+                <label for="Salary">Salary:</label> 
+                Poor <input type="range" id="salary" name="salary" min="0" max="100" value="50"/> Rich
+            </div>   
+</fieldset>
+<fieldset>
+            <legend>Your Contact Information</legend>
+                <div>
+                <label for="Email">Email:</label> 
+                <input type="Email" id="Email" name="Email" required />
+                </div>
+                <div>
+                <label for="Phone">Phone:</label> 
+                <input type="tel", id="tel", name="Phone" />
+                </div>
+                <div>
+                <label for="Address">Address:</label> 
+                <textarea cols="40", id="address", namae="address">
+                </textarea>
+                </div>
+                <div>
+                <label for="Contact method">Contact method(s):</label>
+                <input type="checkbox" id="email" name="contact" value="email" />
+                <label for="emailCheckbox">Email</label>
+                <input type="checkbox" name="contact" id="phoneCheck" />
+                <label for="phoneCheckbox">Phone:</label>
+                </div>
+</fieldset>
+    <div>
+        <input class="dark" type="submit" />
+        </div>
+    </form>
+    
+</body>
+</html>
